@@ -1,0 +1,17 @@
+Demonstrate PaaS using VS code.
+
+1: Open VScode.
+2 :Search for cloud code in the extensions section and install it.
+3 :Now create service from cloud code status bar, select New Application.
+4 : From here cloud run Application.--> Kubernetes app basic
+5 :Now select java:Hello world
+6: Now create hello-world-1 application in the desired directory.
+7 : Now the project directory will open in VScode.
+8 :Click on deploy to cloud run.
+9 :Since no billing account is created can conclude at this stage.
+1] Select Display to cloud run’ using cloud code status bar.
+2] If prompted, login to Google cloud account and set your project.
+3]] Use the display to cloud Run dialog to configure your deploy setting. for more 
+information on the configuration options available ,see Deploying cloud Run app.
+4] Click ‘Deploy’, cloud code now builds your image, pushes it to the container registry, and deploys your service to cloud run.
+5] View your live services by clicking on the URL displayed at the top of the ‘Deploy to cloud code run’ dialog.

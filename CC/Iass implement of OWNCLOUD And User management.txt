@@ -1,0 +1,49 @@
+
+IaaS Implementation using OwnCloud.
+
+
+
+1. double click the application. It will directly take you to the VMware (it will be in ISO folder in d dive as UCS <-- dont write the bracket part on the exam page)
+2. click on “Power on the virtual machine” and following window will appear.
+3. On next window it will ask you ”city”, don’t enter any city in it and just click “next”(Most imp please don’t enter any city name in it otherwise it will not read Keyboard entries).
+
+4. It will fetch Ip address, Net Mask and gateway from DHCP, don’t change anything, also uncheck “obtain Ip address automatically (DHCP)”,mention an “ Altermate DNS server “ and just click “Next”.
+
+5. Is domain setup click “next”
+6. Now account information window will appear, enter detailsint it . remember that password we are setting is for “root” and “administrator”, click on next
+7. On next window it willshow you Fully Qualified domain name and LDAP base, click on”next”
+8. It willshow the configuration setting for own cloud scroll down a little and click on “configure”.
+9.: the setup is done and click on finish
+ 10. Now See Ip address path
+11.Now you cab see the Ip address on top right –hand site.the browser and enter system’s Ip address is URL. bar and press enter 
+12. : It will ask you Email id to send license, enter your email id and click “Request Activation”
+13.Check your E-Mail box you will receive the license from OwnClod.donwload it.
+14. Get back to ownCloud and click on”Upload license file”  Now select the license file and click “Open”
+15. Go on next page click on ”finish”.  
+16. we have installed OwnCloud,now just try lagging in with “Administration” as user for that click on “Login” button
+17. Enter “Administration” as user name and the password which you set during setting up process and click on “login” 
+18. After we have logged in successfully ,now click on hamburger menu button.--> Now we completed OwnCloud inst install
+19. : After we have logged in successfully ,now click on hamburger menu button.--> Now we completed OwnCloud inst install
+
+
+
+*****IF ASKED TO PERFORM USER MANAGEMENT ON OWN CLOUD PERFORM THE ABOVE STEPS AND THE FOLLOW THE BELLOW STEPS.****
+
+1 : Open VMware and power on the Own cloud . 
+2 : Now you can see the Ip address on top right-hand side,open the browser and enter system’s Ip address in URL. bar and press enter
+3: Enter admin name and password which you have set while creating account and click on ”Login in”.
+4 : following dashboard will get load
+5: Now got to “Users”.
+6: You can see that there is only user which is admin, which is in Group admin. 
+7: Now let’s add group, for that go to “group” > “Add group”
+8 : Enter group name and pass “enter”.
+9: Our group has been added, now select it. 
+10 : Now enter “Username” and “Email” for the user and click on “Create”
+11: our user is been added we can change the storage limit for the new user.
+12 : Let’s add another user but this time in “admin” group.
+13: Now “log out” from the admin account
+14 : try log in with user you just created.
+
+
+
+

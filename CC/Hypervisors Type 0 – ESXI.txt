@@ -1,0 +1,39 @@
+Hypervisors Type 0 – ESXI 
+
+
+1 : Open VMware workstation → click on create new virtual machine.
+2: Select next and provide the ESXI 5.5 iso path and click next. Keep the default name and location. You can change the location if you want.
+3: Keep the default settings
+4 Select VMware ESX.
+5 Check disk - size and select Third option.
+6 Click on finish
+7 This is your after adding power on your virtual machine.
+8 Press enter and start with username and password (root and root).
+9Installation in progress
+10: Enter to install further.
+11 Accept license and agreement for further installation.
+12 Select storage disk for installation
+13: Select keyboard layout for input language
+14: Provide password for OS
+15: Confirm installation
+16 Installation in progress
+17: Installation complete now reboot system
+18: After restarting OS it provide DHCP address (Note down the IP address).
+19: Enter the IP address given in yellow box in VMware vSphere Client enter username and password and login
+20: You have successfully login into the Vsphere Client
+21: Now, Create a new virtual machine and click on custom installation
+22: Let further steps be default.
+23: Click on 3 option.
+24: Click on LSI Logic Sas
+25: Create a new virtual machine and Click on Next.
+26 Power on the virtual machine
+27: Click on permission you will find the user and group included Therefore, Exsi is successfully done.
+
+
+Study and Implement Software as a service (SasS). Prac 3
+just open google drive and make a slide and change the access to anybody with this link This is the whole practical if asked SaaS.
+
+
+
+
+

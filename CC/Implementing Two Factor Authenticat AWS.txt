@@ -1,0 +1,17 @@
+Implementing Two Factor Authentication using AWS. 
+
+Need DEBIT CARD & PHONE to perform the practical.
+
+Click on link: https://aws.amazon.com/console/
+1: Go to “My Account” > “AWS Management Console”
+2: Just login to your user’s account or Create account if not created yet.
+3 : Sign in your account.
+4: Once you logged in go to “My security credentials”.
+5 : You will find “Multi-factor authentication (MFA)”. Click on “Assign MFA device”.
+6: Set the device name and Select the Authenticator app option and click on next.
+7: Download Google Authenticator or other authenticator app on your virtual device and scan the QR code given.
+8: We have to enter 2(two times different) MFA code which we will receive on app and click “Assign MFA”.
+9 After that, the device will be added.
+10 Now, Sign out the account
+11: Now, Re-login it will ask MFA code to login account you have to enter code from your virtual device
+12 : Successfully added MFA security.

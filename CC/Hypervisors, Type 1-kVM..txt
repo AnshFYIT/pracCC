@@ -1,0 +1,30 @@
+# Hypervisors, Type 1-kVM.
+* = imp steps on terminal
+1. Open VM ware workstation.
+2. Create new virtual machine and click next.
+3. Click 3rd option and next
+4. Name your virtual machine and create new Folder for it and next.
+5. Disk size 20GBand select and split option into multiple rile option
+6. click on customize
+7. Click on New CD CD/DVD and click on use Iso Image file and select 22LTS Ubuntu iso file and close.
+8.After customization click on finish and this screen will appear click on Power on this Vm.
+9.Install Ubuntu
+10.Select language.
+11. Click Normal. Installion and Download updates.
+12. select erase Disk and install ubuntu option from installion time.
+13. Select Timezone
+14. Set the details.
+15. Wait for it to install, and continue
+16. Restart Now
+17. Your A Screen will appear like this Ubuntu
+18. Open Terminal.
+19. Sudo apt update.
+* 20. cat/proc/cpuinfo.
+21. sudo grep-c " sum/vmx " /proc/ cpuinfo
+22. Sudo apt-get update
+23. Sudo apt-get install qemu-kvm libvirt- daemon-system libvirt-clients bridge-utils
+* 24. Virtual machine manager is ready use virt-manager command.
+25. Right click on QEMU and select Now
+26. Select Manual Install for Instant installation or else you need to iso of windows and then open it using other options
+27. Install any version of windows you want to work with..
+28. you can see win7 has appeared
